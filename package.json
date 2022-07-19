@@ -2,7 +2,7 @@
   "name": "react-forms-todos",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "main": "postcss.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,13 +14,16 @@
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
-    "@mui/material": "^5.9.0",
+    "@mui/material": "^5.9.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/react-hooks": "^8.0.1",
-    "@testing-library/user-event": "^14.2.5",
+    "@testing-library/user-event": "^14.2.6",
+    "formik": "^2.2.9",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",
@@ -32,5 +35,16 @@
     "tailwindcss": "^3.1.6",
     "vite": "^3.0.0",
     "vitest": "^0.18.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thetonyalvarez/sec-39-08-react-forms-todos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thetonyalvarez/sec-39-08-react-forms-todos/issues"
+  },
+  "homepage": "https://github.com/thetonyalvarez/sec-39-08-react-forms-todos#readme",
+  "description": ""
 }
